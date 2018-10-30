@@ -1,0 +1,30 @@
+h2 {
+  color: #0043b6;
+}
+#disco {
+  list-style: disc;
+}
+#circulo {
+  list-style: circle;
+}
+#cuadrado {
+  list-style: square;
+}
+#decimal {
+  list-style: decimal;
+}
+#greekl {
+  list-style: lower-greek;
+}
+#latinl {
+  list-style: lower-latin;
+}
+#romanol {
+  list-style: lower-roman;
+}
+#latinu {
+  list-style: upper-latin;
+}
+#romanou {
+  list-style: upper-roman;
+}

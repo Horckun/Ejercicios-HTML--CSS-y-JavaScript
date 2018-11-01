@@ -1,0 +1,27 @@
+body {
+  width: 25%;
+}
+h2 {
+  color: #0043b6;
+  text-align: center;
+}
+table {
+  text-align: center;
+  background: #ccc;
+  margin: 0 auto;
+}
+thead {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: brown;
+}
+tfoot {
+  background: grey;
+}
+tbody {
+  background: #eee;
+  color: blue;
+}
+td {
+  padding: 1%;
+}

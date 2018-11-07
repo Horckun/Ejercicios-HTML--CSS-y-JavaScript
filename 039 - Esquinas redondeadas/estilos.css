@@ -1,0 +1,14 @@
+h2 {
+  color: #0043b6;
+}
+.cuadro {
+  width: 20%;
+  padding: 0.5%;
+  background: #0043b6;
+  border-radius: 10%;
+  color: #eee;
+}
+.cuadro p {
+  border: 1px solid #eee;
+  padding: 1%;
+}

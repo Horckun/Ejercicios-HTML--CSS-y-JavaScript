@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Eventos para elementos de formulario</title>
+  </head>
+  <body>
+    <h2>Eventos para elementos de formulario</h2>
+    <!-- Al enviar formulario muestra alerta -->
+    <form class="" action="index.html" method="post" onsubmit="alert('Se ha enviado el formulario')" style="width: 20%;">
+      <label>Mostrar mensaje cuando el botón está perdiendo foco</label>
+      <button type="button" name="button" onblur="document.write('El botón está perdiendo foco');">En la pérdida de foco</button>
+      <br><br>
+      <label>Al cambiar el valor del elemento, muestra un mensaje</label>
+      <textarea name="name" rows="8" cols="80" onchange="document.write('El botón ha perdido foco');"></textarea>
+      <br><br>
+      <label>Al perder foco, muestra mensaje</label>
+      <button type="button" name="button" onfocus="document.write('El botón ha perdido foco');">En la pérdida de foco</button>
+      <br><br>
+      <label>Al seleccionar el texto, muestra un mensaje</label>
+      <textarea name="name" rows="8" cols="80" onchange="document.write('Al seleccionar texto');"></textarea>
+      <hr>
+      <button type="submit" name="button">Enviar formulario</button>
+    </form>
+  </body>
+</html>

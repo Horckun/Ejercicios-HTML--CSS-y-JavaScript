@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- PROPIEDADES DEL DOCUMENTO -->
+    <meta charset="utf-8">
+    <meta name="author" content="Horckun">
+    <meta name="description" content="Principales elementos de un documento HTML.">
+    <meta name="keywords" content="elementos,documento,html,web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TÍTULO DEL DOCUMENTO -->
+    <title>Estilos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+  </head>
+  <body>
+    <!-- ESTILOS -->
+    <style media="screen">
+      /* CLASE */
+      .capaGeneral {
+        /* MARGEN */
+        margin: 1%;
+      }
+      /* ID */
+      #capaIndividual {
+        /* COLOR DE FONDO */
+        background: #43b6f7;
+        /* COLOR DEL TEXTO */
+        color: #eee;
+        /* ESPACIO INTERIOR */
+        padding: 1%;
+      }
+    </style>
+    <!-- CAPAS -->
+    <div class="capaGeneral">
+      <strong>Este texto está en negrita.</strong>
+      <!-- SALTO DE LÍNEA -->
+      <br>
+      <em>Este texto está en cursiva.</em>
+    </div>
+    <div class="capaGeneral" style="color:#43b6f7;">
+      <strong>Este texto está en negrita.</strong>
+      <!-- SALTO DE LÍNEA -->
+      <br>
+      <em>Este texto está en cursiva.</em>
+    </div>
+    <div id="capaIndividual">
+      <strong>Este texto está en negrita.</strong>
+      <!-- SALTO DE LÍNEA -->
+      <br>
+      <em>Este texto está en cursiva.</em>
+    </div>
+  </body>
+</html>

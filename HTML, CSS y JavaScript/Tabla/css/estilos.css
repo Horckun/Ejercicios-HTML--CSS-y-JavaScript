@@ -1,0 +1,47 @@
+/* CONTENIDO */
+body {
+  font-size: 14px;
+  font-family: Consolas;
+}
+/* TABLA */
+table {
+  margin: 1%;
+  text-align: center;
+  border: 1px solid #0043b6;
+  box-shadow: 1px 1px 5px #0043b6;
+}
+thead {
+  background: #43b6f7;
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+}
+th {
+  padding: 1%;
+  border-bottom: 1px solid black;
+}
+tfoot {
+  background: #eee;
+}
+tfoot td {
+  padding: 1%;
+  border-top: 1px solid black;
+}
+tbody {
+  font-size: 1.5em;
+  text-align: justify;
+}
+tbody td {
+  padding: 1%;
+  border: 1px solid black;
+}
+/* ENLACE */
+a {
+  text-decoration: none;
+  color: #43b6f7;
+  text-shadow: 1px 1px 1px black;
+}
+/* CLASE */
+.negrita {
+  font-weight: bold;
+}

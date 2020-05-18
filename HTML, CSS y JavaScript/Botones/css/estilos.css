@@ -1,0 +1,17 @@
+/* CONTENIDO */
+body {
+  font-size: 14px;
+  font-family: Consolas;
+}
+/* TÍTULO */
+h2 {
+  font-size: 2em;
+  color: #0043b6;
+}
+/* FORMULARIO */
+input {
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid #0043b6;
+  box-shadow: 1px 1px 5px #0043b6;
+}

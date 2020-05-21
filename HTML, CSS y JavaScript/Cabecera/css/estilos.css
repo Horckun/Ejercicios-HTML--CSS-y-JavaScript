@@ -1,0 +1,57 @@
+/* CONTENIDO */
+body {
+  font-size: 14px;
+  font-family: Consolas;
+  background: #eee;
+}
+/* CABECERA */
+header {
+  background: #333;
+  color: white;
+  padding: 1%;
+}
+/* LOGO */
+#logo {
+  width: 20%;
+  float: left;
+  margin: 0 auto;
+}
+#logo img {
+  border: 1px solid white;
+}
+/* MENU */
+#menu {
+  width: 50%;
+  float: left;
+  margin: 0 auto;
+}
+#menu ul {
+  list-style: none;
+  margin: 0 auto;
+}
+#menu li {
+  display: inline-block;
+  margin: 0 5%;
+}
+#menu a {
+  text-decoration: none;
+  color: white;
+}
+/* INICIAR SESIÓN */
+#inicio {
+  width: 20%;
+  float: right;
+  margin: 0 auto;
+}
+#inicio ul {
+  list-style: none;
+  margin: 0 auto;
+}
+#inicio a {
+  text-decoration: none;
+  color: white;
+}
+/* LIMPIEZA */
+#limpiar {
+  clear: both;
+}

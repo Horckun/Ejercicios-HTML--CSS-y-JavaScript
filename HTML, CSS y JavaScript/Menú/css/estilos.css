@@ -1,0 +1,43 @@
+/* CONTENIDO */
+body {
+  width: 50%;
+  font-size: 14px;
+  font-family: Consolas;
+}
+/* MENU */
+.menu {
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid #0043b6;
+  box-shadow: 1px 1px 5px #0043b6;
+}
+h2 {
+  font-size: 2em;
+  padding: 1%;
+  border-bottom: 1px solid black;
+}
+li {
+  list-style: none;
+  padding: 1% 0;
+  border-bottom: 1px solid black;
+}
+/* MOSTRAR / OCULTAR ENLACES */
+.activar:hover .oculto {
+  display: block;
+}
+.oculto {
+  display: none;
+  text-indent: 1em;
+}
+/* ENLACE */
+a {
+  text-decoration: none;
+  color: #43b6f7;
+  text-shadow: 1px 1px 1px black;
+}
+.activar a {
+  text-shadow: 1px 1px 1px black;
+}
+.oculto a {
+  text-shadow: none;
+}

@@ -1,0 +1,29 @@
+/* CONTENIDO */
+body {
+  width: 50%;
+  font-size: 14px;
+  font-family: Consolas;
+}
+h2 {
+  font-size: 2em;
+  padding: 1%;
+  border: 1px solid black;
+}
+p {
+  padding: 1%;
+  border: 1px solid black;
+}
+h3 {
+  padding: 1%;
+  border: 1px solid black;
+}
+/* ARTÍCULO */
+.noticias {
+  background: #eee;
+}
+.articulo {
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid #0043b6;
+  box-shadow: 1px 1px 5px #0043b6;
+}

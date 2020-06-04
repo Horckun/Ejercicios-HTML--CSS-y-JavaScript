@@ -1,0 +1,36 @@
+/* CONTENIDO */
+body {
+  width: 50%;
+  font-size: 14px;
+  font-family: Consolas;
+}
+h1 {
+  font-size: 2em;
+  padding: 1%;
+  text-align: center;
+  color: #0043b6
+}
+h2 {
+  font-size: 1.5em;
+  padding: 1%;
+  color: #43b6f7
+}
+/* INFO */
+.noInfo {
+  background: #eee;
+  padding: 1%;
+  border: 1px solid black;
+  margin: 1%;
+}
+.noInfo nav {
+  list-style: none;
+}
+.noInfo nav li {
+  display: inline-block;
+  margin: 0 10%;
+}
+.noInfo nav li a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}

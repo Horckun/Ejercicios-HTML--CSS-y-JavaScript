@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- PROPIEDADES DEL DOCUMENTO -->
+    <meta charset="utf-8">
+    <meta name="author" content="Horckun">
+    <meta name="description" content="Principales elementos de un documento HTML.">
+    <meta name="keywords" content="elementos,documento,html,web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TÍTULO DEL DOCUMENTO -->
+    <title>Lista en formulario</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <!-- FORMULARIO -->
+    <form class="formulario" action="#" method="post">
+      <!-- DATOS PERSONALES -->
+      <fieldset>
+        <legend>Datos personales</legend>
+        <label>*Nombre: </label>
+        <input type="text" name="nombre" value="" autofocus required>
+        <br><br>
+        <label>*Correo electrónico: </label>
+        <input type="email" name="correo" value="" required>
+      </fieldset>
+      <!-- OTROS DATOS -->
+      <fieldset>
+        <legend>Información</legend>
+        <label>*Asunto: </label>
+        <input type="text" list="asunto">
+        <datalist id="asunto">
+          <option value="Informática">
+          <option value="Porgramación">
+        </datalist>
+        <br><br>
+        <label>*Comentario</label>
+        <br>
+        <textarea name="texto" rows="8" cols="80"></textarea>
+      </fieldset>
+      <hr>
+      <button type="submit" name="button">Enviar</button>
+      <hr>
+      <p style="color:red;">*Todos los campos son obligatorios</p>
+    </form>
+  </body>
+</html>

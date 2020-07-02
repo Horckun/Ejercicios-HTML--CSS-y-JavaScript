@@ -1,0 +1,20 @@
+/* CONTENIDO */
+body {
+  font-size: 14px;
+  font-family: Consolas;
+  text-align: center;
+}
+div {
+  padding: 1%;
+  margin: 1%;
+  background: #43b6f7;
+  width: 20%;
+}
+h1 {
+  font-size: 2em;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}

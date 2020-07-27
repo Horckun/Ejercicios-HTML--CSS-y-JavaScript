@@ -1,0 +1,17 @@
+/* CONTENIDO */
+div {
+  margin: 1%;
+  float: none;
+  width: 200px;
+  height: 200px;
+  background: #0043b6;
+}
+#redondear {
+  border-radius: 10%;
+}
+#redondear2 {
+  border-radius: 25%;
+}
+#redondear3 {
+  border-radius: 50%;
+}

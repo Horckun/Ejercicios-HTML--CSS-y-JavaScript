@@ -1,0 +1,14 @@
+/* CONTENIDO */
+div {
+  margin: 1%;
+  padding: 1%;
+  width: 15%;
+  background: #0043b6;
+  color: white;
+  box-shadow: 5px 5px 10px brown;
+}
+p {
+  text-align: justify;
+  text-shadow: 5px 5px 10px brown;
+  line-height: 150%;
+}

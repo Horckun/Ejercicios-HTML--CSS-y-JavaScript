@@ -1,0 +1,29 @@
+/* CONTENIDO */
+#uno {
+  width: 15%;
+  border: 1px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+  padding: 1%;
+}
+#dos {
+  width: 15%;
+  border: 1px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+  padding: 1%;
+}
+#tres {
+  width: 30%;
+  border: 1px solid black;
+  word-break: keep-all;
+  padding: 1%;
+}
+#cuatro {
+  width: 30%;
+  border: 1px solid black;
+  word-break: break-all;
+  padding: 1%;
+}

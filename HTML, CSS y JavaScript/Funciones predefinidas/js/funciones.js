@@ -17,3 +17,9 @@ document.write("<hr>");
 var evaluar = decodeURI("http://localhost/HTML,%20CSS%20y%20JavaScript/Funciones%20predefinidas/");
 // MOSTRAR EN PANTALLA
 document.write(evaluar);
+//----------------------
+document.write("<hr>");
+// DECLARAR VARIABLE
+var evaluar = encodeURIComponent("http://localhost/HTML, CSS y JavaScript/Funciones predefinidas/");
+// MOSTRAR EN PANTALLA
+document.write(evaluar);

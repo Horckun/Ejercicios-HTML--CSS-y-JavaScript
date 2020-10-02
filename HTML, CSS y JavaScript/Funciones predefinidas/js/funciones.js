@@ -26,3 +26,14 @@ document.write("<br>");
 var numero = parseInt(texto);
 // MOSTRAR EN PANTALLA
 document.write("Numero: "+(numero+1));
+//----------------------
+document.write("<hr>");
+// DECLARAR VARIABLE
+var texto = "28";
+// MOSTRAR EN PANTALLA
+document.write("Texto: "+(texto+0.1));
+document.write("<br>");
+// CAMBIAR A NÚMERO
+var numero = parseFloat(texto);
+// MOSTRAR EN PANTALLA
+document.write("Numero: "+(numero+0.1));

@@ -15,25 +15,31 @@ document.write(evaluar);
 document.write("<hr>");
 var evaluar = decodeURIComponent("http%3A%2F%2Flocalhost%2FHTML%2C%20CSS%20y%20JavaScript%2FFunciones%20predefinidas%2F");
 document.write(evaluar);
-//----------------------
 document.write("<hr>");
-// DECLARAR VARIABLE
 var texto = "28";
-// MOSTRAR EN PANTALLA
 document.write("Texto: "+(texto+1));
 document.write("<br>");
-// CAMBIAR A NÚMERO
 var numero = parseInt(texto);
-// MOSTRAR EN PANTALLA
 document.write("Numero: "+(numero+1));
+document.write("<hr>");
+var texto = "28";
+document.write("Texto: "+(texto+0.1));
+document.write("<br>");
+var numero = parseFloat(texto);
+document.write("Numero: "+(numero+0.1));
 //----------------------
 document.write("<hr>");
 // DECLARAR VARIABLE
-var texto = "28";
+var texto = "sfg";
+var numero = 28;
+var tipo;
+// ASIGNAR VALOR
+tipo = isNaN(texto);
 // MOSTRAR EN PANTALLA
-document.write("Texto: "+(texto+0.1));
+document.write("Texto: "+tipo);
+// SALTO DE LÍNEA
 document.write("<br>");
-// CAMBIAR A NÚMERO
-var numero = parseFloat(texto);
+// ASIGNAR VALOR
+tipo = isNaN(numero);
 // MOSTRAR EN PANTALLA
-document.write("Numero: "+(numero+0.1));
+document.write("Número: "+tipo);

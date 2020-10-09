@@ -9,12 +9,18 @@ if(window.close() == 0) {
 //------------------------------------------------
 // VER HISTORIAL
 // ver cuántas páginas se han visitado anteriormente
-//var historial = window.history.length;
+var historial = window.history.length;
 // ver página anterior
 //var historial = window.history.back();
 // ver página siguiente
 //var historial = window.history.forward();
 // abrir una página específica
-var historial = window.history.go();
+//var historial = window.history.go();
 // alerta
 alert(historial);
+//----------------------
+// GESTIONAR INFORMACIÓN
+// ver información de la página actual
+var gestionar = window.location;
+// alerta
+alert(gestionar);

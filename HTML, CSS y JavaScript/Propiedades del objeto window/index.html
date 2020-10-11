@@ -9,20 +9,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
     <!-- JS -->
-    <script>
-      // GESTIONAR NOMBRE
-      // crear función
-      function funcion() {
-        // crear variable y asignar valor para abrir nueva ventana
-        var ventana = window.open("", "Nueva ventana", "width=200,height=100");
-        // escribir en la nueva ventana el nombre
-        ventana.document.write("<p>Nombre: "+ventana.name+"</p>");
-      }
-    </script>
-    <script src="#" charset="utf-8"></script>
+    <script src="js/funciones.js" charset="utf-8"></script>
   </head>
   <body>
-    <!-- crear botón -->
-    <button onclick="funcion()">Dale clic</button>
+    <!-- crear botón que llame a función "funcion" -->
+    <button onclick="funcion()">Cambiar fondo</button>
   </body>
 </html>

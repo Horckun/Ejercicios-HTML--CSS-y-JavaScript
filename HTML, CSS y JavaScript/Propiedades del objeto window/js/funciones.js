@@ -1,9 +1,9 @@
 // COMPROBAR SI UNA VENTANA SE HA CERRADO O NO
 if(window.close() == 0) {
-  // SI SE HA CERRADO MUESTRA HOLA
+  // si no se ha cerrado muestra hola
   alert("hola")
 } else {
-  // SI SE HA CERRADO MUESTRA ADIÓS
+  // si se ha cerrado muestra adiós
   alert("adiós");
 }
 //------------------------------------------------
@@ -24,3 +24,12 @@ alert(historial);
 var gestionar = window.location;
 // alerta
 alert(gestionar);
+//----------------------
+// GESTIONAR PARENTESCO
+// crear función
+function funcion() {
+    // establecer fondo azul
+    parent.document.body.style.backgroundColor = "#0043b6";
+}
+// crear nueva ventana
+window.open("", "", "width=200, height=100");

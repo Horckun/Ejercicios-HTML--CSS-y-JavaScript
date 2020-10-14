@@ -28,8 +28,19 @@ alert(gestionar);
 // GESTIONAR PARENTESCO
 // crear función
 function funcion() {
-    // establecer fondo azul
-    parent.document.body.style.backgroundColor = "#0043b6";
+  // establecer fondo azul
+  parent.document.body.style.backgroundColor = "#0043b6";
 }
 // crear nueva ventana
 window.open("", "", "width=200, height=100");
+//----------------------
+// COMPROBAR ESTADO DE VENTANA
+// crear función
+function ventana() {
+  // comprobar estado de ventana actual
+  if (window.top != window.self)  {
+    document.getElementById("ven").innerHTML = "¡Esta ventana no es la ventana superior!";
+  } else {
+    document.getElementById("ven").innerHTML = "¡Esta ventana es la ventana superior!";
+  }
+}

@@ -10,7 +10,9 @@ var horckun;
 function abrir() {
   // generar alerta en ventana actual
   window.alert("Se abrirá una nueva ventana.");
-    // abrir web en nueva ventana
+  // alerta de confirmación
+  window.confirm("¿Deseas abrir una nueva ventana?");
+  // abrir web en nueva ventana
   horckun = window.open("https://horckun.es","Ventana","height=600,width=300");
 }
 // CREAR FUNCIÓN

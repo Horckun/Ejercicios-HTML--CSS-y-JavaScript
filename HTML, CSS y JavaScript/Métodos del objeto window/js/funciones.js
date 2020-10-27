@@ -1,4 +1,4 @@
-// ABRIR URL
+/*// ABRIR URL
 // abrir web en una nueva pestaña
 window.open("https://horckun.es","Nueva pestaña");
 // ABRIR VENTANA NUEVA
@@ -19,4 +19,8 @@ function abrir() {
 function cerrar() {
   // cerrar web de nueva ventana
   horckun.close();
-}
+}*/
+// SOLICITAR VALOR NUMÉRICO
+var valor = prompt("Introduce un valor: ","");
+// mostrar el valor
+document.write("El valor introducido es: "+valor);

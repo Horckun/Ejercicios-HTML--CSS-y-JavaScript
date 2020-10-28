@@ -1,0 +1,16 @@
+/* CONTENIDO */
+body {
+  font-size: 2em;
+  width: 50%;
+  padding: 1%;
+}
+#uno {
+  font-family: "Consolas";
+}
+#dos {
+  font-family: 'Mansalva', cursive;
+  margin: 10% 0;
+}
+#tres {
+  font-family: 'Euphoria Script', cursive;
+}

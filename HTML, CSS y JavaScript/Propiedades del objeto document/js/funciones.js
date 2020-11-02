@@ -5,5 +5,7 @@ function funcion() {
   // cambiar color de fuente
   document.fgColor="#eee";
   // cambiar color de enlace
-  document.linkColor="00ff00";
+  document.linkColor="#00ff00";
+  // cambiar color de enlace visitado
+  document.vlinkColor="#ff0000";
 }

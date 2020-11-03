@@ -8,4 +8,6 @@ function funcion() {
   document.linkColor="#00ff00";
   // cambiar color de enlace visitado
   document.vlinkColor="#ff0000";
+  // cambiar color de enlace activo
+  document.alinkColor="#0000ff";
 }

@@ -10,4 +10,6 @@ function funcion() {
   document.vlinkColor="#ff0000";
   // cambiar color de enlace activo
   document.alinkColor="#0000ff";
+  // cambiar una imagen por otra
+  document.images[0].src="img/horckun.jpg";
 }

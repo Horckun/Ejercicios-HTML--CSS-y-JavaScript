@@ -12,4 +12,6 @@ function funcion() {
   document.alinkColor="#0000ff";
   // cambiar una imagen por otra
   document.images[0].src="img/horckun.jpg";
+  // cambiar un enlace por otra
+  document.links[0].href="https://horckun.es";
 }

@@ -14,4 +14,6 @@ function funcion() {
   document.images[0].src="img/horckun.jpg";
   // cambiar un enlace por otra
   document.links[0].href="https://horckun.es";
+  // cambiar una acción de formulario
+  document.forms[0].action="https://horckun.es";
 }

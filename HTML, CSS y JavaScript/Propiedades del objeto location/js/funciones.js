@@ -17,3 +17,10 @@ document.write("<hr>");
 var puerto = location.port;
 // mostrar variable
 document.write("<h1>Puerto del servidor: "+puerto+"</h1>");
+// SEPARACIÓN
+document.write("<hr>");
+// MOSTRAR DIRECCIÓN DE SERVIDOR
+// declarar variable y asignar valor
+var protocolo = location.protocol;
+// mostrar variable
+document.write("<h1>Protocolo del servidor: "+protocolo+"</h1>");

@@ -31,3 +31,10 @@ document.write("<hr>");
 var url = location.href;
 // mostrar variable
 document.write("<h1>URL del servidor: "+url+"</h1>");
+// SEPARACIÓN
+document.write("<hr>");
+// MOSTRAR RECURSO DE SERVIDOR
+// declarar variable y asignar valor
+var recurso = location.pathname;
+// mostrar variable
+document.write("<h1>Recurso del servidor: "+recurso+"</h1>");

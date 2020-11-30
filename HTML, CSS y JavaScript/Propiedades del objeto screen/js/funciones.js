@@ -10,3 +10,9 @@ var anchura = screen.availWidth;
 document.write("Anchura: "+anchura+"px.");
 // SEPARACIÓN
 document.write("<hr>");
+// AVERIGUAR ANCHO DE PANTALLA DEL USUARIO
+var anchura2 = screen.width;
+// mostrar en pantalla
+document.write("Anchura: "+anchura2+"px.");
+// SEPARACIÓN
+document.write("<hr>");

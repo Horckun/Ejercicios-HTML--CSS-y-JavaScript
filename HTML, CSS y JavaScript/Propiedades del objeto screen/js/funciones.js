@@ -16,3 +16,9 @@ var anchura2 = screen.width;
 document.write("Anchura: "+anchura2+"px.");
 // SEPARACIÓN
 document.write("<hr>");
+// AVERIGUAR ALTO DE PANTALLA DEL USUARIO
+var altura2 = screen.width;
+// mostrar en pantalla
+document.write("Altura: "+altura2+"px.");
+// SEPARACIÓN
+document.write("<hr>");

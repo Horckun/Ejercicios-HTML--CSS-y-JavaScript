@@ -22,3 +22,9 @@ var altura2 = screen.width;
 document.write("Altura: "+altura2+"px.");
 // SEPARACIÓN
 document.write("<hr>");
+// AVERIGUAR NÚMERO DE BITS
+var color = screen.colorDepth;
+// mostrar en pantalla
+document.write("Color: "+color+" bits.");
+// SEPARACIÓN
+document.write("<hr>");

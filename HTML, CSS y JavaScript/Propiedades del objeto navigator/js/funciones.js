@@ -10,3 +10,9 @@ var marca = navigator.appName;
 document.write("Marca: "+marca+".");
 // SEPARACIÓN
 document.write("<hr>");
+// AVERIGUAR VERSIÓN DEL NAVEGADOR
+var version = navigator.appVersion;
+// mostrar en pantalla
+document.write("Versión: "+version+".");
+// SEPARACIÓN
+document.write("<hr>");

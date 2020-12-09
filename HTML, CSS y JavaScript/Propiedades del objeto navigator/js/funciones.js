@@ -10,9 +10,9 @@ var marca = navigator.appName;
 document.write("Marca: "+marca+".");
 // SEPARACIÓN
 document.write("<hr>");
-// AVERIGUAR VERSIÓN DEL NAVEGADOR
-var version = navigator.appVersion;
+// AVERIGUAR IDIOMA DEL NAVEGADOR
+var idioma = navigator.language;
 // mostrar en pantalla
-document.write("Versión: "+version+".");
+document.write("Idioma: "+idioma+".");
 // SEPARACIÓN
 document.write("<hr>");

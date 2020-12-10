@@ -16,3 +16,9 @@ var idioma = navigator.language;
 document.write("Idioma: "+idioma+".");
 // SEPARACIÓN
 document.write("<hr>");
+// AVERIGUAR PLATAFORMA EN LA QUE TRABAJA EL NAVEGADOR
+var plataforma = navigator.platform;
+// mostrar en pantalla
+document.write("Plataforma: "+plataforma+".");
+// SEPARACIÓN
+document.write("<hr>");

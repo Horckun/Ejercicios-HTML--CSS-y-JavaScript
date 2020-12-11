@@ -22,3 +22,9 @@ var plataforma = navigator.platform;
 document.write("Plataforma: "+plataforma+".");
 // SEPARACIÓN
 document.write("<hr>");
+// AVERIGUAR CANTIDAD DE PLUGINS INSTALADOS EN EL NAVEGADOR
+var plugins = navigator.plugins.length;
+// mostrar en pantalla
+document.write("Plugins: "+plugins+".");
+// SEPARACIÓN
+document.write("<hr>");

@@ -28,3 +28,9 @@ var plugins = navigator.plugins.length;
 document.write("Plugins: "+plugins+".");
 // SEPARACIÓN
 document.write("<hr>");
+// AVERIGUAR CANTIDAD DE MIMES INSTALADOS EN EL NAVEGADOR
+var mime = navigator.mimeTypes.length;
+// mostrar en pantalla
+document.write("Mimes: "+mime+".");
+// SEPARACIÓN
+document.write("<hr>");

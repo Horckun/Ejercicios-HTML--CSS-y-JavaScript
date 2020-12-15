@@ -34,3 +34,9 @@ var mime = navigator.mimeTypes.length;
 document.write("Mimes: "+mime+".");
 // SEPARACIÓN
 document.write("<hr>");
+// AVERIGUAR AGENTE DEL NAVEGADOR
+var agente = navigator.userAgent;
+// mostrar en pantalla
+document.write("Agente: "+agente+".");
+// SEPARACIÓN
+document.write("<hr>");

@@ -40,3 +40,9 @@ var agente = navigator.userAgent;
 document.write("Agente: "+agente+".");
 // SEPARACIÓN
 document.write("<hr>");
+// AVERIGUAR SI LAS COOKIES DEL NAVEGADOR ESTÁN ACTIVAS
+var cookies = navigator.cookieEnabled;
+// mostrar en pantalla
+document.write("Cookies: "+cookies+".");
+// SEPARACIÓN
+document.write("<hr>");

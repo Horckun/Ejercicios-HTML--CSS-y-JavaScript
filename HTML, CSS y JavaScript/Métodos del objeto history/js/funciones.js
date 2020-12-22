@@ -1,2 +1,4 @@
 // RETROCEDER A LA PÁGINA ANTERIOR
-history.back();
+//history.back();
+// IR A LA PÁGINA SIGUIENTE
+history.forward();

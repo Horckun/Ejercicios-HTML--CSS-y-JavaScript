@@ -7,3 +7,14 @@ var dia = fecha.getDate();
 document.write("Día del mes: "+dia);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER DÍA DE LA SEMANA
+// coger día de la semana de la fecha actual
+var diaS = fecha.getDay();
+// COMPROBAR DÍA
+if(diaS == 3) {
+  diaS = "Miércoles";
+}
+// MOSTRAR EN PANTALLA
+document.write("Día de la semana: "+diaS);
+// SALTO DE LÍNEA
+document.write("<hr>");

@@ -18,3 +18,10 @@ if(diaS == 3) {
 document.write("Día de la semana: "+diaS);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER HORA
+// coger hora de la fecha actual
+var hora = fecha.getHours();
+// MOSTRAR EN PANTALLA
+document.write("Hora: "+hora);
+// SALTO DE LÍNEA
+document.write("<hr>");

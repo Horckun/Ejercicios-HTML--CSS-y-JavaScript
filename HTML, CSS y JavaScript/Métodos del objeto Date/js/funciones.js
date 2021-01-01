@@ -25,3 +25,10 @@ var hora = fecha.getHours();
 document.write("Hora: "+hora);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER MINUTOS
+// coger minutos de la fecha actual
+var minutos = fecha.getMinutes();
+// MOSTRAR EN PANTALLA
+document.write("Minutos: "+minutos);
+// SALTO DE LÍNEA
+document.write("<hr>");

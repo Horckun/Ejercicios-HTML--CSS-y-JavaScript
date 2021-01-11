@@ -32,3 +32,10 @@ var minutos = fecha.getMinutes();
 document.write("Minutos: "+minutos);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER SEGUNDOS
+// coger segundos de la fecha actual
+var segundos = fecha.getSeconds();
+// MOSTRAR EN PANTALLA
+document.write("Segundos: "+segundos);
+// SALTO DE LÍNEA
+document.write("<hr>");

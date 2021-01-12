@@ -39,3 +39,10 @@ var segundos = fecha.getSeconds();
 document.write("Segundos: "+segundos);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER TIEMPO TRANSCURRIDO EN MILISEGUNDOS DESDE 1970
+// coger segundos de la fecha actual
+var tiempo = fecha.getTime();
+// MOSTRAR EN PANTALLA
+document.write("Tiempo: "+tiempo);
+// SALTO DE LÍNEA
+document.write("<hr>");

@@ -46,3 +46,14 @@ var tiempo = fecha.getTime();
 document.write("Tiempo: "+tiempo);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER MES
+// coger mes de la fecha actual
+var mes = fecha.getMonth();
+// COMPROBAR MES
+if(mes == 0) {
+  mes = "Enero";
+}
+// MOSTRAR EN PANTALLA
+document.write("Mes: "+mes);
+// SALTO DE LÍNEA
+document.write("<hr>");

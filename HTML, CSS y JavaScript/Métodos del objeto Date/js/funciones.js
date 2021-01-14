@@ -57,3 +57,10 @@ if(mes == 0) {
 document.write("Mes: "+mes);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER AÑO
+// coger año de la fecha actual
+var año = fecha.getFullYear();
+// MOSTRAR EN PANTALLA
+document.write("Año: "+año);
+// SALTO DE LÍNEA
+document.write("<hr>");

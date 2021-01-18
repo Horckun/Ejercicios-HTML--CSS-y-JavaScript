@@ -64,3 +64,10 @@ var año = fecha.getFullYear();
 document.write("Año: "+año);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER FECHA
+// coger año de la fecha actual
+var fecha2 = fecha.toLocaleString();
+// MOSTRAR EN PANTALLA
+document.write("Fecha: "+fecha2);
+// SALTO DE LÍNEA
+document.write("<hr>");

@@ -71,3 +71,10 @@ var fecha2 = fecha.toLocaleString();
 document.write("Fecha: "+fecha2);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER GMT
+// coger GMT de la fecha actual
+var gmt = fecha.toGMTString();
+// MOSTRAR EN PANTALLA
+document.write("GMT: "+gmt);
+// SALTO DE LÍNEA
+document.write("<hr>");

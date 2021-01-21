@@ -78,3 +78,10 @@ var gmt = fecha.toGMTString();
 document.write("GMT: "+gmt);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER DÍA DEL MES
+// coger día del mes de la fecha actual
+fecha.setDate(31);
+// MOSTRAR EN PANTALLA
+document.write("Día y mes: "+fecha);
+// SALTO DE LÍNEA
+document.write("<hr>");

@@ -80,8 +80,15 @@ document.write("GMT: "+gmt);
 document.write("<hr>");
 // VER DÍA DEL MES
 // coger día del mes de la fecha actual
-fecha.setDate(31);
+fecha.setDate(21);
 // MOSTRAR EN PANTALLA
-document.write("Día y mes: "+fecha);
+document.write("Día del mes: "+fecha);
+// SALTO DE LÍNEA
+document.write("<hr>");
+// VER HORA
+// coger hora específica
+fecha.setHours(8);
+// MOSTRAR EN PANTALLA
+document.write("Hora: "+fecha);
 // SALTO DE LÍNEA
 document.write("<hr>");

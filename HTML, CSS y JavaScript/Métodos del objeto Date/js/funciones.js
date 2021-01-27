@@ -92,3 +92,10 @@ fecha.setHours(8);
 document.write("Hora: "+fecha);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER MINUTOS
+// coger minutos específicos
+fecha.setMinutes(8);
+// MOSTRAR EN PANTALLA
+document.write("Minutos: "+fecha);
+// SALTO DE LÍNEA
+document.write("<hr>");

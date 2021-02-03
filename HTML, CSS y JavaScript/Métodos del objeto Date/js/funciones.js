@@ -99,3 +99,10 @@ fecha.setMinutes(8);
 document.write("Minutos: "+fecha);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER MES
+// coger mes específico
+fecha.setMonth(8);
+// MOSTRAR EN PANTALLA
+document.write("Mes: "+fecha);
+// SALTO DE LÍNEA
+document.write("<hr>");

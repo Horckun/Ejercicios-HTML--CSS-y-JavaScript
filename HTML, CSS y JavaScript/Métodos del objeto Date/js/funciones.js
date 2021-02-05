@@ -113,3 +113,10 @@ fecha.setSeconds(8);
 document.write("Segundos: "+fecha);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER AÑO
+// coger año específico
+fecha.setYear(8);
+// MOSTRAR EN PANTALLA
+document.write("Año: "+fecha);
+// SALTO DE LÍNEA
+document.write("<hr>");

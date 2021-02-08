@@ -120,3 +120,10 @@ fecha.setYear(8);
 document.write("Año: "+fecha);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// VER TIEMPO EN MILISEGUNDOS
+// coger tiempo pasado en milisegundos desde 1970
+fecha.setTime(800000000000);
+// MOSTRAR EN PANTALLA
+document.write("Milisegundos: "+fecha);
+// SALTO DE LÍNEA
+document.write("<hr>");

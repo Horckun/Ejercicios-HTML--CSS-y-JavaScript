@@ -21,3 +21,10 @@ var entre = cadena.substring(8,80);
 document.write("En la cadena: <strong>"+cadena+"</strong>, entre la posición <strong>8</strong> y <strong>80</strong> se encuentra: "+entre+".");
 // SALTO DE LÍNEA
 document.write("<hr>");
+// MOSTRAR TEXTO COMO ENLACE
+// convierte la cadena que queramos en un enlace
+var enlace = cadena.link("https://horckun.es");
+// MOSTRAR EN PANTALLA
+document.write("Texto en enlace: "+enlace+".");
+// SALTO DE LÍNEA
+document.write("<hr>");

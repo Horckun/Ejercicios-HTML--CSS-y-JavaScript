@@ -28,3 +28,10 @@ var enlace = cadena.link("https://horckun.es");
 document.write("Texto en enlace: "+enlace+".");
 // SALTO DE LÍNEA
 document.write("<hr>");
+// MOSTRAR TEXTO MINÚSCULAS
+// convierte todas las letras de la cadena en minúsculas
+var min = cadena.toLowerCase();
+// MOSTRAR EN PANTALLA
+document.write(min);
+// SALTO DE LÍNEA
+document.write("<hr>");

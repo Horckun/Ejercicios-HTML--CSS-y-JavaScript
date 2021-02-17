@@ -35,3 +35,10 @@ var min = cadena.toLowerCase();
 document.write(min);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// MOSTRAR TEXTO MAYÚSCULAS
+// convierte todas las letras de la cadena en mayúsculas
+var may = cadena.toUpperCase();
+// MOSTRAR EN PANTALLA
+document.write(may);
+// SALTO DE LÍNEA
+document.write("<hr>");

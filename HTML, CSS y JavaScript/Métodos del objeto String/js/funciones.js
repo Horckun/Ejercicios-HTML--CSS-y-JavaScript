@@ -42,3 +42,10 @@ var may = cadena.toUpperCase();
 document.write(may);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// MOSTRAR TEXTO EN MAYOR TAMAÑO
+// aumenta tamaño de texto
+var grande = cadena.big();
+// MOSTRAR EN PANTALLA
+document.write(grande);
+// SALTO DE LÍNEA
+document.write("<hr>");

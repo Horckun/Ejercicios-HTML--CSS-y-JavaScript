@@ -49,3 +49,10 @@ var grande = cadena.big();
 document.write(grande);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// MOSTRAR TEXTO EN MENOR TAMAÑO
+// disminuye tamaño de texto
+var peque = cadena.small();
+// MOSTRAR EN PANTALLA
+document.write(peque);
+// SALTO DE LÍNEA
+document.write("<hr>");

@@ -56,3 +56,10 @@ var peque = cadena.small();
 document.write(peque);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// MOSTRAR TEXTO EN CURSIVA
+// convierte el texto en cursiva
+var cursiva = cadena.italics();
+// MOSTRAR EN PANTALLA
+document.write(cursiva);
+// SALTO DE LÍNEA
+document.write("<hr>");

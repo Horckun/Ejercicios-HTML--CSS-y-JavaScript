@@ -63,3 +63,10 @@ var cursiva = cadena.italics();
 document.write(cursiva);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// MOSTRAR TEXTO TACHADO
+// tacha el texto de la cadena
+var tachado = cadena.strike();
+// MOSTRAR EN PANTALLA
+document.write(tachado);
+// SALTO DE LÍNEA
+document.write("<hr>");

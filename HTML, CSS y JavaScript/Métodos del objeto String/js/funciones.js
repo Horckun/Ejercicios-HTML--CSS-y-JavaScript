@@ -8,65 +8,72 @@ document.write("En la cadena: <strong>"+cadena+"</strong>, la palabra <strong>no
 // SALTO DE LÍNEA
 document.write("<hr>");
 // BÚSQUEDA DE UNA CADENA
-// buscar palabra en la cadena el último resultado
+// declarar variable
 var buscarUl = cadena.lastIndexOf("no");
 // MOSTRAR EN PANTALLA
 document.write("En la cadena: <strong>"+cadena+"</strong>, la palabra <strong>no</strong> se encuentra en la posición "+buscarUl+".");
 // SALTO DE LÍNEA
 document.write("<hr>");
 // BÚSQUEDA ENTRE UNA CADENA
-// buscar carácteres en la cadena entre el inicio y fin
+// declarar variable
 var entre = cadena.substring(8,80);
 // MOSTRAR EN PANTALLA
 document.write("En la cadena: <strong>"+cadena+"</strong>, entre la posición <strong>8</strong> y <strong>80</strong> se encuentra: "+entre+".");
 // SALTO DE LÍNEA
 document.write("<hr>");
 // MOSTRAR TEXTO COMO ENLACE
-// convierte la cadena que queramos en un enlace
+// declarar variable
 var enlace = cadena.link("https://horckun.es");
 // MOSTRAR EN PANTALLA
 document.write("Texto en enlace: "+enlace+".");
 // SALTO DE LÍNEA
 document.write("<hr>");
 // MOSTRAR TEXTO MINÚSCULAS
-// convierte todas las letras de la cadena en minúsculas
+// declarar variable
 var min = cadena.toLowerCase();
 // MOSTRAR EN PANTALLA
 document.write(min);
 // SALTO DE LÍNEA
 document.write("<hr>");
 // MOSTRAR TEXTO MAYÚSCULAS
-// convierte todas las letras de la cadena en mayúsculas
+// declarar variable
 var may = cadena.toUpperCase();
 // MOSTRAR EN PANTALLA
 document.write(may);
 // SALTO DE LÍNEA
 document.write("<hr>");
 // MOSTRAR TEXTO EN MAYOR TAMAÑO
-// aumenta tamaño de texto
+// declarar variable
 var grande = cadena.big();
 // MOSTRAR EN PANTALLA
 document.write(grande);
 // SALTO DE LÍNEA
 document.write("<hr>");
 // MOSTRAR TEXTO EN MENOR TAMAÑO
-// disminuye tamaño de texto
+// declarar variable
 var peque = cadena.small();
 // MOSTRAR EN PANTALLA
 document.write(peque);
 // SALTO DE LÍNEA
 document.write("<hr>");
 // MOSTRAR TEXTO EN CURSIVA
-// convierte el texto en cursiva
+// declarar variable
 var cursiva = cadena.italics();
 // MOSTRAR EN PANTALLA
 document.write(cursiva);
 // SALTO DE LÍNEA
 document.write("<hr>");
 // MOSTRAR TEXTO TACHADO
-// tacha el texto de la cadena
+// declarar variable
 var tachado = cadena.strike();
 // MOSTRAR EN PANTALLA
 document.write(tachado);
+// SALTO DE LÍNEA
+document.write("<hr>");
+// MOSTRAR TEXTO EN SUPERÍNDICE
+// declarar variable
+var sup = cadena.sup();
+// MOSTRAR EN PANTALLA
+document.write("Superíndice: "+sup);
 // SALTO DE LÍNEA
 document.write("<hr>");

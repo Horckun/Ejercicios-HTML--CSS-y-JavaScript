@@ -77,3 +77,10 @@ var sup = cadena.sup();
 document.write("Superíndice: "+sup);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// MOSTRAR TEXTO EN SUBÍNDICE
+// declarar variable
+var sub = cadena.sub();
+// MOSTRAR EN PANTALLA
+document.write("Subíndice: "+sub);
+// SALTO DE LÍNEA
+document.write("<hr>");

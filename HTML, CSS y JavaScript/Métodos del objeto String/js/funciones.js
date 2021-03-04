@@ -84,3 +84,10 @@ var sub = cadena.sub();
 document.write("Subíndice: "+sub);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// ENCONTRAR CARÁCTER
+// declarar variable
+var encontrar = cadena.charAt(8);
+// MOSTRAR EN PANTALLA
+document.write("Carácter en la posición 8: "+encontrar);
+// SALTO DE LÍNEA
+document.write("<hr>");

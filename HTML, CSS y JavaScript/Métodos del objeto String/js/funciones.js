@@ -91,3 +91,10 @@ var encontrar = cadena.charAt(8);
 document.write("Carácter en la posición 8: "+encontrar);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// ASIGNAR COLOR
+// declarar variable
+var color = cadena.fontcolor("#0043b6");
+// MOSTRAR EN PANTALLA
+document.write(color);
+// SALTO DE LÍNEA
+document.write("<hr>");

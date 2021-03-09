@@ -98,3 +98,10 @@ var color = cadena.fontcolor("#0043b6");
 document.write(color);
 // SALTO DE LÍNEA
 document.write("<hr>");
+// MODIFICAR TAMAÑO DE FUENTE
+// declarar variable
+var tamaño = cadena.fontsize(7);
+// MOSTRAR EN PANTALLA
+document.write(tamaño);
+// SALTO DE LÍNEA
+document.write("<hr>");

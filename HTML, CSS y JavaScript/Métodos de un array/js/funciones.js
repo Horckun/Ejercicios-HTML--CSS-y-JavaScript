@@ -14,3 +14,7 @@ document.write("El nuevo separador es: "+separar+".<hr>");
 var inversa = vectorFinal.reverse();
 // mostrar en pantalla
 document.write("El nuevo orden es: "+inversa+".<hr>");
+// ordenar alfabéticamente el contenido de un array
+var ordenar = vectorFinal.sort();
+// mostrar en pantalla
+document.write("El orden alfabético es: "+ordenar+".<hr>");

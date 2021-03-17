@@ -9,4 +9,8 @@ document.write("El vector final sería: "+vectorFinal+".<hr>");
 // elegir otro carácter para separar contenido de array
 var separar = vectorFinal.join(" ");
 // mostrar en pantalla
-document.write("El nuevo separador es: "+separar+".");
+document.write("El nuevo separador es: "+separar+".<hr>");
+// invertir el orden del contenido
+var inversa = vectorFinal.reverse();
+// mostrar en pantalla
+document.write("El nuevo orden es: "+inversa+".<hr>");

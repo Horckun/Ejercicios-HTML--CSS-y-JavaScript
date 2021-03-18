@@ -21,7 +21,7 @@
         <legend>Datos personales</legend>
         <label>*Nombre: </label>
         <!-- perder foco cuando salimos de nombre -->
-        <input type="text" name="nombre" value="" onblur="alert('Foco perdido.')" autofocus required>
+        <input type="text" name="nombre" value="" autofocus required>
         <br>
         <label>*Contraseña: </label>
         <input type="password" name="pass" value="" required>
@@ -45,7 +45,8 @@
         <br>
         <label>*Comentario</label>
         <br>
-        <textarea name="texto" rows="8" cols="80"></textarea>
+        <!-- crear una alerta cuando haya una modificación en el campo de texto -->
+        <textarea name="texto" rows="8" cols="80" onchange="alert('Algo ha cambiado!')"></textarea>
       </fieldset>
       <hr>
       <button type="submit" name="button">Enviar</button>

@@ -49,7 +49,8 @@
         <textarea name="texto" rows="8" cols="80" onchange="alert('Algo ha cambiado!')"></textarea>
       </fieldset>
       <hr>
-      <button type="submit" name="button">Enviar</button>
+      <!-- salta una alerta cuando pulsamos el botón -->
+      <button type="submit" name="button" onfocus="alert('Has pulsado el botón.')">Enviar</button>
       <hr>
       <p style="color:red;">*Todos los campos son obligatorios</p>
     </form>

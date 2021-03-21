@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- PROPIEDADES DEL DOCUMENTO -->
+    <meta charset="utf-8">
+    <meta name="author" content="Horckun">
+    <meta name="description" content="Principales elementos de un documento HTML.">
+    <meta name="keywords" content="elementos,documento,html,web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TÍTULO DEL DOCUMENTO -->
+    <title>Eventos del documento web</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <!-- crear un evento cuando se carga el documento web -->
+  <body onload="document.write('<h1>Documento cargado correctamente!</h1>')">
+    <!-- FORMULARIO -->
+    <form class="formulario" action="#" method="post">
+      <!-- DATOS PERSONALES -->
+      <fieldset>
+        <legend>Datos personales</legend>
+        <label>*Nombre: </label>
+        <input type="text" name="nombre" value="" autofocus required>
+        <br>
+        <label>*Correo electrónico: </label>
+        <input type="email" name="correo" value="" required>
+      </fieldset>
+      <p style="color:red;">*Todos los campos son obligatorios</p>
+      <hr>
+      <button type="submit" name="button">Enviar</button>
+    </form>
+  </body>
+</html>

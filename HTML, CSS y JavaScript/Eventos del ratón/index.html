@@ -21,7 +21,8 @@
     <form class="formulario" action="#" method="post" onmousemove="alert('Se ha movido el ratón!')">
       <!-- DATOS PERSONALES -->
       <fieldset>
-        <legend>Datos personales</legend>
+        <!-- crear evento al situar el ratón encima -->
+        <legend onmouseover="alert('Ha pasado el ratón por encima!')">Datos personales</legend>
         <label>*Nombre: </label>
         <!-- accionar el evento al dar doble clic con el ratón -->
         <input type="text" name="nombre" value="" ondblclick="alert('Le has dado doble clic!')" autofocus>

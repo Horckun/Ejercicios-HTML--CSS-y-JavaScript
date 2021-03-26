@@ -27,7 +27,8 @@
         <!-- accionar el evento al dar doble clic con el ratón -->
         <input type="text" name="nombre" value="" ondblclick="alert('Le has dado doble clic!')" autofocus>
         <br>
-        <label>*Correo electrónico: </label>
+        <!-- accionar evento cuando el ratón se quita de encima -->
+        <label onmouseout="alert('Has abandonado la posición!')">*Correo electrónico: </label>
         <input type="email" name="correo" value="">
       </fieldset>
       <p style="color:red;">*Todos los campos son obligatorios</p>

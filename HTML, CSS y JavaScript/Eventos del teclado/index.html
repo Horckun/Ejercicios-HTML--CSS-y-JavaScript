@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- PROPIEDADES DEL DOCUMENTO -->
+    <meta charset="utf-8">
+    <meta name="author" content="Horckun">
+    <meta name="description" content="Principales elementos de un documento HTML.">
+    <meta name="keywords" content="elementos,documento,html,web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TÍTULO DEL DOCUMENTO -->
+    <title>Eventos del ratón</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <!-- crear evento al presionar una tecla sin soltarla -->
+  <body onkeydown="alert('Has presionado una tecla!')">
+    <!-- FORMULARIO -->
+    <form class="formulario" action="#" method="post">
+      <!-- DATOS PERSONALES -->
+      <fieldset>
+        <legend>Datos personales</legend>
+        <label>*Nombre: </label>
+        <input type="text" name="nombre" value="" autofocus>
+        <br>
+        <label>*Correo electrónico: </label>
+        <input type="email" name="correo" value="">
+      </fieldset>
+      <p style="color:red;">*Todos los campos son obligatorios</p>
+      <hr>
+      <button type="submit" name="button">Enviar</button>
+    </form>
+  </body>
+</html>

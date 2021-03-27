@@ -19,7 +19,8 @@
     <!-- generar evento cuando se suelta una tecla que estaba presionada -->
     <form class="formulario" action="#" method="post" onkeyup="alert('Has soltado una tecla!')">
       <!-- DATOS PERSONALES -->
-      <fieldset>
+      <!-- crear una alerta al pulsar una tecla -->
+      <fieldset onkeypress="alert('Has pulsado una tecla!')">
         <legend>Datos personales</legend>
         <label>*Nombre: </label>
         <input type="text" name="nombre" value="" autofocus>

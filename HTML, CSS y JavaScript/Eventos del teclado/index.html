@@ -16,7 +16,8 @@
   <!-- crear evento al presionar una tecla sin soltarla -->
   <body onkeydown="alert('Has presionado una tecla!')">
     <!-- FORMULARIO -->
-    <form class="formulario" action="#" method="post">
+    <!-- generar evento cuando se suelta una tecla que estaba presionada -->
+    <form class="formulario" action="#" method="post" onkeyup="alert('Has soltado una tecla!')">
       <!-- DATOS PERSONALES -->
       <fieldset>
         <legend>Datos personales</legend>

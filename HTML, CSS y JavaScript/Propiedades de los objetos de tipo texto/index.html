@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- PROPIEDADES DEL DOCUMENTO -->
+    <meta charset="utf-8">
+    <meta name="author" content="Horckun">
+    <meta name="description" content="Principales elementos de un documento HTML.">
+    <meta name="keywords" content="elementos,documento,html,web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TÍTULO DEL DOCUMENTO -->
+    <title>Propiedades de los objetos de tipo texto</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- JS -->
+    <script type="text/javascript">
+      function funcion() {
+        // nombre por defecto si no se especifica uno
+        var nombre = formulario.nombre.defaultValue="Horckun";
+        // acceder a un campo de un formulario especificado
+        formulario.nombre.form="formulario";
+        // cambiar el valor de la propiedad name en nombre
+        var nom = formulario.nombre.name="nuevoNombre";
+        // modificar la id de un campo
+        var id = formulario.nombre.id="nuevaId";
+        // ocultar el campo correo
+        var oculto = formulario.correo.disabled=true;
+      }
+    </script>
+  </head>
+  <body>
+    <!-- FORMULARIO -->
+    <form name="formulario" action="#" method="post">
+      <!-- DATOS PERSONALES -->
+      <fieldset>
+        <legend>Datos personales</legend>
+        <label>*Nombre: </label>
+        <input type="text" name="nombre" value="">
+        <br>
+        <label>*Correo electrónico: </label>
+        <input type="email" name="correo" value="">
+      </fieldset>
+      <p style="color:red;">*Todos los campos son obligatorios</p>
+      <hr>
+      <!-- accionar función cuando pasa el ratón por encima -->
+      <button type="submit" name="button" onmouseover="funcion()">Enviar</button>
+    </form>
+  </body>
+</html>

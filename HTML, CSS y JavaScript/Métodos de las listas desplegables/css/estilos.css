@@ -1,0 +1,22 @@
+/* CONTENIDO */
+body {
+  width: 50%;
+  font-size: 14px;
+  font-family: Consolas;
+}
+/* FORMULARIO */
+form {
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid #0043b6;
+  box-shadow: 1px 1px 5px #0043b6;
+}
+fieldset {
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid black;
+}
+legend {
+  color: #0043b6;
+  font-size: 2em;
+}

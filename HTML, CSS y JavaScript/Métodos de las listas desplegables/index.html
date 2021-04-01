@@ -18,8 +18,11 @@
       function funcion() {
         // comprobar cuántas opciones hay
         var longitud = formulario.asunto.length;
+        // comprobar que opción ha sido seleccionada
+        var seleccion = formulario.asunto.selectedIndex;
         // mostrar en pantalla
         document.write("<h1>Hay "+longitud+" opciones.</h1>");
+        document.write("<h1>Se ha seleccionado la opción: "+seleccion+".</h1>");
       }
     </script>
   </head>

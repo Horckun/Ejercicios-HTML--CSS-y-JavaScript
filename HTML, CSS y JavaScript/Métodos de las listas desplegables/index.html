@@ -22,10 +22,13 @@
         var seleccion = formulario.asunto.selectedIndex;
         // comprobar si la opción escogida es la opción por defecto
         var defecto = formulario.asunto.options[formulario.asunto.selectedIndex].defaultSelected;
+        // comprobar la opción escogida
+        var valor = formulario.asunto.value;
         // mostrar en pantalla
         document.write("<h1>Hay "+longitud+" opciones.</h1>");
         document.write("<h1>Se ha seleccionado la opción: "+seleccion+".</h1>");
-        document.write("<h1>¿Opción por defecto? "+defecto+".</h1>");
+        document.write("<h1>Opción por defecto: "+defecto+".</h1>");
+        document.write("<h1>Opción escogida: "+valor+".</h1>");
       }
     </script>
   </head>

@@ -20,9 +20,12 @@
         var longitud = formulario.asunto.length;
         // comprobar que opción ha sido seleccionada
         var seleccion = formulario.asunto.selectedIndex;
+        // comprobar si la opción escogida es la opción por defecto
+        var defecto = formulario.asunto.options[formulario.asunto.selectedIndex].defaultSelected;
         // mostrar en pantalla
         document.write("<h1>Hay "+longitud+" opciones.</h1>");
         document.write("<h1>Se ha seleccionado la opción: "+seleccion+".</h1>");
+        document.write("<h1>¿Opción por defecto? "+defecto+".</h1>");
       }
     </script>
   </head>
@@ -37,7 +40,7 @@
         <br>
         <label>*Asunto: </label>
         <select class="asunto" name="asunto">
-          <option value="seleccionar">Selecciona una opción</option>
+          <option value="seleccionar" selected>Selecciona una opción</option>
           <option value="primera">Primera opción</option>
           <option value="segunda">Segunda opción</option>
         </select>

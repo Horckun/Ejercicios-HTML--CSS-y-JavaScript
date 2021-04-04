@@ -24,11 +24,14 @@
         var defecto = formulario.asunto.options[formulario.asunto.selectedIndex].defaultSelected;
         // comprobar la opción escogida
         var valor = formulario.asunto.value;
+        // coger nombre del valor
+        var nombre = formulario.asunto.options[formulario.asunto.selectedIndex].text;
         // mostrar en pantalla
         document.write("<h1>Hay "+longitud+" opciones.</h1>");
         document.write("<h1>Se ha seleccionado la opción: "+seleccion+".</h1>");
         document.write("<h1>Opción por defecto: "+defecto+".</h1>");
-        document.write("<h1>Opción escogida: "+valor+".</h1>");
+        document.write("<h1>Opción: "+valor+".</h1>");
+        document.write("<h1>Nombre: "+nombre+".</h1>");
       }
     </script>
   </head>

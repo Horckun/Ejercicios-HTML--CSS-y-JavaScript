@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- PROPIEDADES DEL DOCUMENTO -->
+    <meta charset="utf-8">
+    <meta name="author" content="Horckun">
+    <meta name="description" content="Principales elementos de un documento HTML.">
+    <meta name="keywords" content="elementos,documento,html,web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TÍTULO DEL DOCUMENTO -->
+    <title>Métodos de los checkbox</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- JS -->
+    <script type="text/javascript">
+      // crear función
+      function funcion() {
+        // comprobar cuántas opciones hay
+        var comprobar = formulario.opcion1.checked;
+        // mostrar en pantalla
+        document.write("<h1>Check: "+comprobar+".</h1>");
+      }
+    </script>
+  </head>
+  <body>
+    <!-- FORMULARIO -->
+    <form name="formulario" action="#" method="post">
+      <!-- DATOS PERSONALES -->
+      <fieldset>
+        <legend>Datos personales</legend>
+        <label>*Nombre: </label>
+        <input type="text" name="nombre" value="">
+        <br>
+        <label>*Marca una casilla: </label>
+        <br>
+        <input type="checkbox" name="opcion1" value="opcion1"> Opción 1.<br>
+        <input type="checkbox" name="opcion2" value="opcion2"> Opción 2.<br>
+      </fieldset>
+      <p style="color:red;">*Todos los campos son obligatorios</p>
+      <hr>
+      <!-- accionar función cuando pasa el ratón por encima -->
+      <button type="submit" name="button" onmouseover="funcion()">Enviar</button>
+    </form>
+  </body>
+</html>
